@@ -36,7 +36,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 ### 2. Environment
-- **Create .env:
+Create .env:
 ```bash
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx
 ```
