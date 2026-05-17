@@ -10,3 +10,5 @@ chromadb
 sentence-transformers
 tiktoken
 langchain-huggingface
+torchvision
+cryptography
