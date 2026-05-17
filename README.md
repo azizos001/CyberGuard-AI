@@ -69,5 +69,7 @@ cybersec-rag-agent/
 - **Option 1**: Fully implemented (Loader, Chunking, Embeddings, Vector Store, Retrieval, LLM)
 - **Option 2**: Re-ranking, Prompt Engineering, Memory, Professional UI
 - **Option 3**: LangGraph Agent + Multiple Tools + Autonomous Decision Making
+## 📊 Evaluation & Results
+![Screenshot](images/screenshot1.png)
 ## 📄 License
 MIT License
