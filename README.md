@@ -42,7 +42,11 @@ GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx
 ```
 ### 3. Add Documents
 Put cybersecurity PDFs in the data/ folder (see recommended corpus in docs).
-### 4. Run
+### 4. Ingest
+```bash
+python -c "from src.ingestion import ingest_documents; ingest_documents()"
+```
+### 5. Run
 ```bash
 streamlit run app.py
 ```
