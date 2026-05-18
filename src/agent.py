@@ -27,9 +27,9 @@ Core Rules:
 memory = MemorySaver()
 
 agent_executor = create_react_agent(
-    llm=llm,
+    model=llm,
     tools=tools,
-    state_modifier=system_prompt,
+    prompt=system_prompt,
     checkpointer=memory
 )
 
